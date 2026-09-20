@@ -17,7 +17,7 @@ proxies:
   servername: www.cloudflare.com
   client-fingerprint: chrome
 - name: 🇹🇭 泰国 (Thailand) 02 - xiaohe
-  server: 8.222.84.103
+  server: 8.222.70.238
   port: 443
   udp: true
   type: vless
