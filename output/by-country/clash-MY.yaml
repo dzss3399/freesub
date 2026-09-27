@@ -4,28 +4,25 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇮🇶 IQ 01 - xiaohe
-  server: 104.21.91.50
+- name: 🇲🇾 马来西亚 (Malaysia) 01 - xiaohe
+  server: 47.250.84.25
   port: 443
   udp: true
   type: trojan
-  password: f88f080e9b4f66c6
-  sni: Open-39.AVL-a47261.WorKErS.DeV
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /tr/SpBOfUvsW3IMjIayEnU4fVTehv9gf4?ed=2560
+  password: 5931134d1cde66bf83a54acdfebe7ab2
+  sni: 47.250.84.25
+  skip-cert-verify: true
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
-  - 🇮🇶 IQ 01 - xiaohe
+  - 🇲🇾 马来西亚 (Malaysia) 01 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
-  - 🇮🇶 IQ 01 - xiaohe
+  - 🇲🇾 马来西亚 (Malaysia) 01 - xiaohe
 rules:
 - MATCH,PROXIES
