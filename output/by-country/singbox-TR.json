@@ -4,12 +4,15 @@
   },
   "outbounds": [
     {
-      "type": "shadowsocks",
+      "type": "vless",
       "tag": "🇹🇷 土耳其 (Turkey) 01 - xiaohe",
-      "server": "bale.xv98.ir",
-      "server_port": 5051,
-      "method": "chacha20-ietf-poly1305",
-      "password": "68mL2QkZEBlxWa3hcslGDw"
+      "server": "49.13.231.249",
+      "server_port": 33483,
+      "uuid": "758a691a-45d2-4462-a0e8-991248a6994e",
+      "transport": {
+        "type": "ws",
+        "path": "/"
+      }
     },
     {
       "type": "selector",
