@@ -4,22 +4,13 @@
   },
   "outbounds": [
     {
-      "type": "trojan",
+      "type": "vless",
       "tag": "🇨🇿 捷克 (Czech) 01 - xiaohe",
-      "server": "31.76.7.45",
-      "server_port": 443,
-      "password": "f8b-U5TxjNRYKLvU0Js_6YeMCdj_82km",
-      "tls": {
-        "enabled": true,
-        "server_name": "cz-musicc.moritech.net",
-        "insecure": true,
-        "alpn": [
-          "h2"
-        ]
-      },
+      "server": "kayoor.hivaphone.ir",
+      "server_port": 2045,
+      "uuid": "d7e99010-e7c3-4978-9d30-2e63882dcfbe",
       "transport": {
-        "type": "grpc",
-        "service_name": "grpcbeast"
+        "type": "http"
       }
     },
     {
